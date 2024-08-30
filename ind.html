@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        }
+        input[type=text],input[type=password]{
+            width: 100%;
+            padding: 16px;
+            margin: 12px;
+            display: inline-block;
+            border: 3px solid black;
+            box-sizing: border-box;
+        }
+    input[type=text]:focus,input[type=password]:focus
+    {
+        background-color:darkgray;
+    }
+    button{
+        background-color: blue;
+        color: white;
+        width: 30%;
+        border: none;
+        cursor: pointer;
+        padding: 12px 12px;
+        margin: 12px 5px;
+    }
+    button:hover{
+        opacity: 0.7;
+    }
+    .submitB{
+        width: 30%;
+        float: left;
+    }
+    .cancel{
+        width: 30%;
+        float: left;
+        background-color: crimson;
+
+    }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="center">
+        <form action="#" method="post">
+        <h1>Login</h1>
+        <label for="name"><b>Username</b></label>
+        <input type="text" name="name" placeholder="Enter your Username" required>
+        <label for="password"><b>Password</b></label>
+        <input type="password" name="password" placeholder="Enter your password" required>
+            <a href=dsh.html>submit
+            <button type="Submit" class="SubmitB">Login<ton></a>
+        <button type="button" class="cancel">Cancel</button>
+       
+
+    </form>
+
+    </div>
+    
+</body>
+</html>
