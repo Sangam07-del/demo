@@ -1,7 +1,8 @@
--- SQLite.db
+-- SQLite
+-- SQLite
 drop table Author;
-drop table Publisher;
-drop table book;
+drop table Publication;
+drop table Book;
 
 -- Tables for bookstore
 --Book(Id(candidate key(tesile yo primary key),Title,Author,PublishedDate,Price,Edition,ISBN(Candidate key),Genre,PublicationId(Fk),AuthorId(Fk))
