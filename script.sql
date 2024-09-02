@@ -52,9 +52,9 @@ FOREIGN key(AuthorID) REFERENCES Author(Id),
 FOREIGN key(PublicationID) REFERENCES Publication(Id)
 );
 
-INSERT into book VALUES(null,'computer engineering','2080/01/07','2000','2nd','123','guide book',2,1);
-INSERT into book VALUES(null,'mechanical engineering','2080/04/07','2000','1st','277','Numerical',1,1);
-INSERT into book VALUES(null,'civi engineering','2080/01/07','2000','2nd','123','guide book',2,1);
+--INSERT into book VALUES(null,'computer engineering','2080/01/07','2000','2nd','123','guide book',2,1);
+--INSERT into book VALUES(null,'mechanical engineering','2080/04/07','2000','1st','277','Numerical',1,1);
+--INSERT into book VALUES(null,'civi engineering','2080/01/07','2000','2nd','123','guide book',2,1);
 
 
 
